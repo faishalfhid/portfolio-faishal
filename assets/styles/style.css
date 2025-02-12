@@ -238,6 +238,7 @@ header.navbar-container .nav-list li:hover a {
   main {
     flex-flow: column nowrap;
     margin-top: 9rem;
+    padding: 2rem;
   }
 
   .card {
@@ -248,6 +249,7 @@ header.navbar-container .nav-list li:hover a {
     height: fit-content;
     scroll-margin-top: 10rem;
     padding: 1rem;
+    align-items: center;
   }
 
   #etc-content {
@@ -291,7 +293,7 @@ header.navbar-container .nav-list li:hover a {
 
   #intro p {
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-bottom: 20px;
     font-size: 14px;
   }
@@ -323,6 +325,14 @@ header.navbar-container .nav-list li:hover a {
 
 */
 
+  #intro {
+    align-self: center;
+  }
+
+  .card {
+    scroll-margin-top: 7rem;
+  }
+
   .profile-image {
     width: 300px;
     max-height: 300px;
@@ -330,9 +340,7 @@ header.navbar-container .nav-list li:hover a {
   }
 
   #intro p {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 14px;
   }
 }
