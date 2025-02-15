@@ -322,6 +322,10 @@ header.navbar-container .nav-list li:hover a {
 
   #intro p {
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
   }
 
   .right {
@@ -334,13 +338,6 @@ header.navbar-container .nav-list li:hover a {
     width: 300px;
     max-height: 300px;
     margin-bottom: 10px;
-  }
-
-  #intro p {
-    margin-left: 20px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    font-size: 14px;
   }
 
   header.navbar-container {
@@ -416,5 +413,6 @@ header.navbar-container .nav-list li:hover a {
   #intro p {
     margin-bottom: 30px;
     font-size: 14px;
+    margin-left: 0px;
   }
 }
