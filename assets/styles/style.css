@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* * {
@@ -241,6 +242,7 @@ aside {
   gap: 1rem 6rem;
   position: sticky;
   top: 300px;
+  bottom: 1px;
   align-self: flex-start;
   height: fit-content;
 }
