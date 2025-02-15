@@ -41,10 +41,33 @@ footer {
   scroll-margin-top: 9rem;
 }
 
-#contact-card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
-  padding: 20px;
+main aside #contact-card ul {
+  padding: 1.5rem 1rem;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin: auto;
+  background-color: #3674b5;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 20rem;
+}
+
+main aside #contact-card li {
+  list-style-type: none;
+}
+
+main aside #contact-card li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+
+main aside #contact-card li a:hover {
+  color: #89b0d9;
 }
 
 #intro {
@@ -181,8 +204,7 @@ main {
   flex: 1;
   width: 100%;
   margin-inline: auto;
-  padding: 3rem 8rem;
-
+  padding: 3rem 0rem;
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
@@ -196,19 +218,31 @@ main {
 
 #intro-content {
   display: flex;
+  margin: 5rem 10rem;
 }
 
 #etc-content {
   display: flex;
   flex: 5;
   flex-direction: row;
+  margin-left: 10rem;
+
+  gap: 15rem;
+}
+
+#content-a {
+  flex: 8;
 }
 
 aside {
-  flex: 1; /* Sidebar lebih kecil */
+  flex: 0.5;
   display: flex;
   flex-direction: column;
-  gap: 1rem 2rem;
+  gap: 1rem 6rem;
+  position: sticky;
+  top: 300px;
+  align-self: flex-start;
+  height: fit-content;
 }
 
 header.navbar-container {
@@ -293,9 +327,27 @@ header.navbar-container .nav-list li:hover a {
   #etc-content {
     display: flex;
     flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
+
   main aside {
     align-self: stretch;
+    display: flex;
+    border-radius: 10rem;
+  }
+
+  main aside #contact-card ul {
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color: #3674b5;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    height: 20rem;
   }
 
   #intro {
@@ -304,6 +356,10 @@ header.navbar-container .nav-list li:hover a {
     font-size: medium;
     flex-direction: column;
     gap: 0rem;
+  }
+
+  #intro-content {
+    margin: 0rem;
   }
 
   #intro img {
@@ -319,6 +375,10 @@ header.navbar-container .nav-list li:hover a {
     margin-right: 10px;
     margin-bottom: 20px;
     font-size: 14px;
+  }
+
+  #etc-content {
+    gap: 1rem;
   }
 
   .right {
