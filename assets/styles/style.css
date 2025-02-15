@@ -337,6 +337,7 @@ header.navbar-container .nav-list li:hover a {
     align-self: stretch;
     display: flex;
     border-radius: 10rem;
+    position: static;
   }
 
   main aside #contact-card ul {
@@ -449,6 +450,7 @@ header.navbar-container .nav-list li:hover a {
 
   aside {
     align-self: stretch;
+    position: static;
   }
 
   #intro {
