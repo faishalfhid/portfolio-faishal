@@ -263,7 +263,7 @@ header.navbar-container .nav-list li:hover a {
 }
 
 .menu-toggle {
-  display: none; /* Sembunyikan di layar besar */
+  display: none;
   background: none;
   border: none;
   font-size: 2rem;
@@ -296,6 +296,8 @@ header.navbar-container .nav-list li:hover a {
   }
   main aside {
     align-self: stretch;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   #intro {
@@ -350,7 +352,7 @@ header.navbar-container .nav-list li:hover a {
   }
 
   .nav-list {
-    display: none; /* Sembunyikan menu */
+    display: none;
     width: 100%;
     position: absolute;
     top: 5rem;
