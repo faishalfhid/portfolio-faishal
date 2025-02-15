@@ -350,6 +350,9 @@ header.navbar-container .nav-list li:hover a {
 
 /* Perangkat dengan lebar layar 768px dan di bawahnya */
 @media screen and (max-width: 768px) {
+  main {
+    padding: 0.5rem;
+  }
   .menu-toggle {
     display: flex;
     position: absolute;
